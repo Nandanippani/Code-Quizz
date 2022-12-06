@@ -53,6 +53,11 @@ li:nth-child(odd) {
   background-color: #f3edfc;
 }
 
+li:hover {
+  background-color: #8570a5;
+  cursor: pointer;
+}
+
 .wrapper {
   margin: 100px auto 0 auto;
   max-width: 600px;

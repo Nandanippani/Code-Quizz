@@ -74,5 +74,45 @@ var questions = [
                 "isCorrect": false
             }
         ]
-    }
+    },
+    {
+        "question": "The external JavaScript file must contain the <script> tag.",
+        "options": [
+            {
+                "id": 1,
+                "option": "True",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "option": "False",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "question": "How to write an IF statement in JavaScript?",
+        "options": [
+            {
+                "id": 1,
+                "option": "if i = 5",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "option": "if (i == 5)",
+                "isCorrect": true
+            },
+            {
+                "id": 3,
+                "option": "if i = 5 then",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "option": "if i == 5 then",
+                "isCorrect": false
+            }
+        ]
+    },
 ]
