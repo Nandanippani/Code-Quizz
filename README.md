@@ -36,7 +36,7 @@ Here use can see all their high scores as shown below
 
 ### The URL of the deployed application
 
-https://nandanippani.github.io/Password-Generator/
+https://nandanippani.github.io/JSQuiz
 
 ### The URL of the GitHub repository that contains my code
 
