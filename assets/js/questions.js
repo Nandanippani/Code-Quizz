@@ -115,4 +115,24 @@ var questions = [
             }
         ]
     },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "options": [
+            {
+                "id": 1,
+                "option": "function:myFunction()",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "option": "function myFunction()",
+                "isCorrect": true
+            },
+            {
+                "id": 3,
+                "option": "function = myFunction()",
+                "isCorrect": false
+            }
+        ]
+    }
 ]

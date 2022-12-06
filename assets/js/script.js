@@ -62,7 +62,7 @@ function ShowTime() {
             EndQuiz();
         }
         quizDuration--
-        timeEl.textContent = quizDuration <= 0 ? 0 : quizDuration;  // avoiding score going below zero
+        timeEl.textContent = getQuizDuration();
     }, 1000);
 }
 
@@ -78,8 +78,13 @@ function EndQuiz() {
     endScreenEl.classList.remove('hide');
     endScreenEl.classList.add('start');
 
-    document.getElementById('final-score').textContent = document.getElementById('time').textContent;
+    document.getElementById('final-score').textContent = getQuizDuration();
     clearTimeout(timer);    // clear timeout
+}
+
+function getQuizDuration() {
+    // avoiding score going below zero
+    return quizDuration <= 0 ? 0 : quizDuration;
 }
 
 function displayQuestion(question) {
